@@ -1,0 +1,221 @@
+/*-------------
+ Common Section
+------------- */
+.body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* Header Section */
+header{
+    background-color: #F0FFF0;
+    width: 1440px;
+    height: 576px;
+}
+/* -------------
+Navigation Menu 
+---------------*/
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-menu li{
+    list-style: none;
+    margin: 0px 10px;
+    padding: 5px;
+}
+nav span button{
+    margin-top: -5px;
+}
+
+
+/* Header Area */
+
+.header-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tomato-color{
+    color: #FD511A    ;
+}
+.header-title>h1{
+    font-size: 48px;
+    width: 405px;
+    height: 140px;
+}
+.green-color{
+    color: #21B573    ;
+}
+.submit{
+    color: white;
+    background-color: #21B573;
+    border-radius: 33px;
+    padding: 12px 36px;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-image img{
+    width: 554px;
+    height: 346px;
+}
+
+/*--------------
+ Books Area
+--------------- */
+.books-title{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color: tomato;
+    /* border-bottom: 3px solid tomato; */
+    width: 150px;
+    padding-top: 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.books{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto 135px auto 135px;
+}
+.book img{
+    width: 66px;
+    height: 85px;
+}
+.book{
+    width: 270px;
+    height: 270px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    margin: 42px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.book h3{
+    margin: 15px auto 5px auto;
+}
+.book p{
+    margin-top: 5px;
+}
+.different-book-item{
+    background-color: white;
+    box-shadow: 0px 20px 40px rgba(128, 128, 128, 0.336);
+}
+
+    /*----------------- 
+    Online Course Area
+    ----------------- */
+.courses-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    font-size: 30px;
+    color: tomato;
+}
+
+.online-courses{
+    display: flex;
+    justify-content: space-around;
+    margin:auto 135px auto 135px;
+}
+.online-course-content{
+    width: 340px;
+    height: 453px;
+    padding: 1%;
+    justify-content: center;
+}
+.online-course img{
+    width: 331px;
+    height: 234px;
+    border-radius: 11px;
+}
+.online-course{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 2%;
+    margin: 2%;
+    padding-bottom: 1%;
+}
+.course-info{
+    display: flex;
+}
+.course-info span{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: 8%;
+}
+
+/* ----------------
+ Testimonial Area
+------------------ */
+#blog{
+    margin: 120px auto;
+
+}
+.testimonial-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: tomato;
+}
+.testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial img{
+    width: 120px;
+    height: 120px;
+}
+.testimonial-info{
+    width: 583px;
+    height: 90px;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+/*----------
+ Others 
+----------- */
+footer{
+    background-color: black;
+    padding: 54px;
+}
+.others-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5%;
+    margin: auto 5%;
+    color: rgba(255, 255, 255, 0.781);
+}
+.other-info h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.534);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: -3%;
+}
